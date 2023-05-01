@@ -165,7 +165,7 @@ namespace WpfApp
         }
         private void SaveRawData(object sender, RoutedEventArgs e)
         {
-            SaveFileDialog dialog = new();
+            SaveFileDialog dialog = new SaveFileDialog();
             try
             {
                 if (dialog.ShowDialog() != true)
@@ -179,12 +179,11 @@ namespace WpfApp
         }
         private void CalculateRawDataFromFile(object sender, RoutedEventArgs e)
         {
+            OpenFileDialog dialog = new OpenFileDialog();
             try
             {
-                OpenFileDialog dialog = new();
                 if (dialog.ShowDialog() != true)
                     return;
-
                 viewData.Load(dialog.FileName);
                 Calculate(sender, e);
             }
@@ -210,25 +209,21 @@ namespace WpfApp
             try
             {
                 viewData.SplineData.CalculateSpline();
-                FillRawDataNodesListBox();
+                rawDataNodesListBox.Items.Clear();
+                for (int i = 0; i < viewData.NodesCount; i++)
+                {
+                    rawDataNodesListBox.Items.Add(string.Format(
+                        "Coordinate = {0:F3},  Value = {1:F3};",
+                        viewData.RawData.Nodes[i],
+                        viewData.RawData.Values[i]
+                    ));
+                }
                 integralTextBlock.Text = viewData.SplineData.Integral.ToString("0.000");
                 splineDataItemsListBox.ItemsSource = viewData.SplineData.Values;
             }
             catch (Exception exception)
             {
                 MessageBox.Show(exception.Message);
-            }
-        }
-        private void FillRawDataNodesListBox()
-        {
-            rawDataNodesListBox.Items.Clear();
-            for (int i = 0; i < viewData.NodesCount; i++)
-            {
-                rawDataNodesListBox.Items.Add(string.Format(
-                    "Coordinate = {0:F3},  Value = {1:F3};",
-                    viewData.RawData.Nodes[i],
-                    viewData.RawData.Values[i]
-                ));
             }
         }
     }
