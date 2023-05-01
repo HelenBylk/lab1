@@ -1,0 +1,17 @@
+D:\sem6\lab0\lab_v2\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+D:\sem6\lab0\lab_v2\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\sem6\lab0\lab_v2\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+D:\sem6\lab0\lab_v2\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+D:\sem6\lab0\lab_v2\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\sem6\Solution2\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+D:\sem6\Solution2\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+D:\sem6\Solution2\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+D:\sem6\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+D:\sem6\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\sem6\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+D:\sem6\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+D:\sem6\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\sem6\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+D:\sem6\Solution2\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+D:\sem6\Solution2\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+D:\sem6\Solution2\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll
